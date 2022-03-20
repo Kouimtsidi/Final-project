@@ -183,3 +183,27 @@ header {
     color:#cda45e;
     font-size: 25px;
 }
+/* 
+menu */
+.menu-div {
+    display: flex;
+    justify-content: center;
+}
+.menu-ul {
+    display: flex;
+    margin: 40px 0;
+}
+.menu-li {
+    margin: 0 25px;
+}
+.menu-image {
+    width:70px;
+    height: 60px;
+    border-radius: 50%;
+}
+.menu-flex{
+    display: flex;
+}
+.food {
+    margin: 15px 0;
+}
