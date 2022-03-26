@@ -303,10 +303,53 @@ menu */
 .events-text {
   max-width: 600px;
   width: 100%;
-  color: #cda45e;
+  color: white;
   font-size: 20px;
   margin-left: 20px;
 }
 .events-p {
   margin: 15px 0;
+}
+
+/* contact us */
+.map {
+    width:100%;
+}
+.fa-location-dot,
+.fa-envelope,
+.fa-phone {
+    background-color: #cda45e;
+    font-size: 20px;
+    width: 38px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 9px;
+}
+.contact-li {
+    margin:15px 0;
+}
+.text-message {
+    max-width: 280px;
+    height: 200px;
+    resize: none;
+    border-color: #cda45e;
+    background-color: #1a1814;
+    color: #cda45e;
+}
+.div-contact {
+    display: flex;
+    margin: 20px 0;
+}
+.input-name {
+    border-color: #cda45e;
+    background-color: #1a1814;
+    color: #cda45e; 
+    max-width: 100%;
+    margin-right: 30px;
+}
+.submit {
+    background-color: #cda45e;
+    border-radius: 35%;
+    height: 30px;
+    margin-left: 40px;
 }
