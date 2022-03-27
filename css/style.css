@@ -32,11 +32,11 @@ header {
 .time {
   color: white;
 }
-.fa-mobile-screen-button,
+.fa-thin,
 .fa-clock {
   color: #cda45e;
   margin: 0 7px;
-  font-size: 17px;
+  font-size: 20px;
 }
 .english {
   margin-top: 15px;
@@ -109,7 +109,7 @@ header {
 .second-background {
   background-image: url(../image/about-bg.jpg);
   width: 100%;
-  height: 600px;
+  height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -122,13 +122,16 @@ header {
   position: absolute;
   width: 100%;
 }
+.aboutus-wrap {
+  display: flex;
+}
 .left-block {
-  max-width: 550px;
-  width: 100%;
+  max-width: 670px;
+  width:100%;
   color: white;
 }
 .image-about {
-  max-width: 500px;
+  max-width: 650px;
   width: 100%;
   border: 4px solid rgba(255, 255, 255, 0.2);
 }
@@ -328,28 +331,77 @@ menu */
 .contact-li {
     margin:15px 0;
 }
+.title-li{
+  margin: 15px 0;
+}
 .text-message {
-    max-width: 280px;
+    max-width: 550px;
     height: 200px;
-    resize: none;
-    border-color: #cda45e;
-    background-color: #1a1814;
-    color: #cda45e;
 }
 .div-contact {
     display: flex;
     margin: 20px 0;
 }
 .input-name {
-    border-color: #cda45e;
-    background-color: #1a1814;
-    color: #cda45e; 
     max-width: 100%;
     margin-right: 30px;
+    height: 40px;
+    max-width: 400px;
+  
 }
-.submit {
-    background-color: #cda45e;
+.Send-message {
     border-radius: 35%;
     height: 30px;
     margin-left: 40px;
+    max-width: 150px;
+    height: 40px;
+    background-color: #cda45e;
+    color: white;
+    width: 100%;
+}
+.text-message,
+.input-name{
+  background-color: #1a1814;
+  border-color: #cda45e;
+  color: #cda45e;
+  margin-bottom: 20px;
+  width: 100%;
+  resize: none;
+}
+.contact-flex {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1a1814;
+  height: 260px;
+  padding-top: 40px;
+}
+.contact-div {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.information,
+.information-title
+ {
+  margin: 15px 0;
+}
+.information-title {
+  font-size: 25px;
+  color: #cda45e;
+}
+.icon-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.fa-twitter,
+.fa-facebook,
+.fa-skype,
+.fa-google,
+.fa-instagram {
+  background-color: #0c0b09;
+  border-radius: 50px;
+  width: 33px;
+  height: 33px;
+  padding: 6px;
+  font-size: 20px;
 }
