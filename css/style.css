@@ -6,8 +6,7 @@ body {
   header {
     background: rgba(12, 11, 9, 0.6);
     height: 110px;
-    display: flex;
-    align-items: center;
+    padding: 20px;
   }
   .background-image {
     background-image: url(../image/hero-bg.jpg);
@@ -19,11 +18,18 @@ body {
     position: relative;
     opacity: 0.75;
   }
+  .fa-bars-staggered {
+      position: absolute;
+      right: 55px;
+      top: 60px;
+      font-size: 28px;
+      color: #cda45e;
+      display: none;
+  }
+
   .header-div {
     display: flex;
-    justify-content: space-around;
     justify-content: space-between;
-    margin: 0 auto;
   }
   .phone-clock {
     display: flex;
@@ -82,8 +88,14 @@ body {
   .two-block {
     display: flex;
   }
+  .book-a-table{
+      position: absolute;
+      right: 140px;
+      top: 55px;
+  }
   .our-menu,
-  .book-a-table {
+  .book-a-table 
+  {
     margin-right: 30px;
     display: flex;
     justify-content: center;
