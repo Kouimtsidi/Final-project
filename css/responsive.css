@@ -1,131 +1,183 @@
 @media (max-width:1100px) {
-      .ul-li {
-          display: none;
-      }
-     .burger {
-         display: block;
-     }
-     .navigation {
-         flex-direction: column;
-     }
-     .ul-li {
-         flex-direction: column;
-         align-items: center;
+    .ul-li {
+        display: none;
+    }
+   .burger {
+       display: block;
+   }
+   .navigation {
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;
+   }
+   .ul-li {
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;
+       -webkit-box-align: center;
+           -ms-flex-align: center;
+               align-items: center;
 
-     }
-     .ul-li.activenav {
-         display: block;
-     }
-     .phone-clock {
-         display: flex;
-         flex-direction: column;
-     }
-     .title {
-         font-size: 25px;
-     }
+   }
+   .ul-li.activenav {
+       display: block;
+   }
+   .phone-clock {
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;
+   }
+   .title {
+       font-size: 25px;
+   }
 }
 
 @media (max-width:1100px){
-    .aboutus-wrap {
-        flex-direction: column;
-    }
-    .second-background,
-    .background-events {
-        height: 1100px;
-    }
+  .aboutus-wrap {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+  }
+  .second-background,
+  .background-events {
+      height: 1100px;
+  }
 }
 @media (max-width:1100px) {
-    .boxes {
-        flex-direction: column;
-        align-items: center;
-    }
+  .boxes {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+  }
 } 
 
 @media (max-width:1100px) {
-    .menu-flex {
-        flex-direction: column;
-        background-color:#1a1814 ;
-        align-items: center;
-    }
+  .menu-flex {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      background-color:#1a1814 ;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+  }
 }
 @media (max-width:1100px) {
-    .event-wrap {
-        flex-direction: column;
-    }
-    .events-image {
-        width:450px;
-        height: 400px;
-    }
+  .event-wrap {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+  }
+  .events-image {
+      width:450px;
+      height: 400px;
+  }
 }
 @media (max-width:1100px) {
-    .chefs-flex {
-        flex-direction: column;
-        align-items: center;
+  .chefs-flex {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
 
-    }
+  }
 } 
 @media (max-width:1100px) {
-    .gallery-flex {
-        flex-direction: column;
-        align-items: center;
+  .gallery-flex {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
 
-    }
+  }
 }
 @media (max-width:1100px) {
-    .contact-div {
-      flex-direction: column;
-    }
-    .ul-contact {
-        text-align: center;
-    }
+  .contact-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ul-contact {
+      text-align: center;
+  }
 }
 @media (max-width:668px){
-    .gallery-image{
-        width:290px;
-        height: 280px;
-    }
+  .gallery-image{
+      width:290px;
+      height: 280px;
+  }
 }
 @media (max-width:450px){
-    .div-h3{
-        max-width:200px;
-        width: 100%;
-        height: 80px;
-        font-size: 19px;
+  .div-h3{
+      max-width:200px;
+      width: 100%;
+      height: 80px;
+      font-size: 19px;
+  }
+  .chef-image {
+      max-width: 290px;
+      width: 100%;
+      height: 280px;
     }
-    .chef-image {
-        max-width: 290px;
-        width: 100%;
-        height: 280px;
-      }
-      .chef-name{
-          font-size: 17px;
-      }
+    .chef-name{
+        font-size: 17px;
+    }
 }
 @media (max-width:450px) {
-    .contact-flex {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-    .text-message,
-    .input-name {
-        width:270px;
-     }
-     .div-contact {
-         display: flex;
-         flex-direction: column;
-     }
+  .contact-flex {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      height: auto;
+  }
+  .text-message,
+  .input-name {
+      width:270px;
+   }
+   .div-contact {
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;
+   }
 }
 
 @media (max-width:450px) {
-    .events-text {
-        width:270px;
-    }
-    .events-image {
-        width:300px;
-        height: 230px;
-    }
-    .left-block{
-        width:280px;
-    }
+  .events-text {
+      width:270px;
+  }
+  .events-image {
+      width:300px;
+      height: 230px;
+  }
+  .left-block{
+      width:280px;
+  }
 }
