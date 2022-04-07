@@ -41,7 +41,7 @@ body {
   .time {
     color: white;
   }
-  .fa-thin,
+  .fa-mobile-screen-button,
   .fa-clock {
     color: #cda45e;
     margin: 0 7px;
@@ -90,13 +90,7 @@ body {
   .two-block {
     display: flex;
   }
-  .book-a-table{
-      position: absolute;
-      right: 140px;
-      top: 55px;
-  }
-  .our-menu,
-  .book-a-table 
+  .our-menu
   {
     margin-right: 30px;
     display: flex;
@@ -269,9 +263,9 @@ body {
   }
   .chef-name {
     position: absolute;
-    color: #1a1814;
+    color:#cda45e;
     bottom: 40px;
-    left: 150px;
+    left: 50px;
     font-size: 30px;
     animation: chef-name 10s forwards;
     width: 100%;
@@ -360,6 +354,7 @@ body {
       height: 30px;
       margin-left: 40px;
       max-width: 150px;
+      width: 100%;
       height: 40px;
       background-color: #cda45e;
       color: white;
@@ -411,3 +406,4 @@ body {
     padding: 6px;
     font-size: 20px;
   }
+ 

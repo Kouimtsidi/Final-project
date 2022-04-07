@@ -16,6 +16,13 @@
      .ul-li.activenav {
          display: block;
      }
+     .phone-clock {
+         display: flex;
+         flex-direction: column;
+     }
+     .title {
+         font-size: 25px;
+     }
 }
 
 @media (max-width:1100px){
@@ -74,7 +81,51 @@
 }
 @media (max-width:668px){
     .gallery-image{
-        width:200px;
-        height: 180px;
+        width:290px;
+        height: 280px;
+    }
+}
+@media (max-width:450px){
+    .div-h3{
+        max-width:200px;
+        width: 100%;
+        height: 80px;
+        font-size: 19px;
+    }
+    .chef-image {
+        max-width: 290px;
+        width: 100%;
+        height: 280px;
+      }
+      .chef-name{
+          font-size: 17px;
+      }
+}
+@media (max-width:450px) {
+    .contact-flex {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .text-message,
+    .input-name {
+        width:270px;
+     }
+     .div-contact {
+         display: flex;
+         flex-direction: column;
+     }
+}
+
+@media (max-width:450px) {
+    .events-text {
+        width:270px;
+    }
+    .events-image {
+        width:300px;
+        height: 230px;
+    }
+    .left-block{
+        width:280px;
     }
 }
